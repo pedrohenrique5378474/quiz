@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, black, blue 60%);
+    color: white;
+    min-height: 75px;
+}
+
+header > h1 {
+    margin: 40px 0px 0px 50px;
+    text-shadow: 3px 3px 5px black;
+}
+
+main {
+    background-color: white;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h2 {
+    margin: 10px;
+    text-shadow: 1px 1px 1px #0000004f;
+}
+
+p {
+    text-shadow: 2px 2px 3px black;
+}
+
+input {
+    margin-left: 10px;
+}
+
+#quiz {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#final {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#tabela-t {
+    margin: 20px;
+    text-align: center;
+}
+
+.acertos {
+    text-align: center;
+}
+
+.avaliacao {
+    text-align: justify;
+    padding: 3px;
+}
+
+#resp {
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#login {
+    text-align: center;
+    margin: 10px;
+}
+
+#email-t {
+    margin-left: 100px;
+}
+
+#senha-t {
+    margin-left: 94px}
+
+#feedback {
+    margin: 10px;
+    text-align: center;
+}
+
+#comentario {
+    margin: 10px;
+}
+
+#enviar {
+    margin-left: 400px;
+    padding: 5px;
+}
